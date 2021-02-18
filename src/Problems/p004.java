@@ -11,7 +11,7 @@ public class p004 {
     System.out.println("Result: " + result);
   }
 
-  public static int solve(int digits) {
+  private static int solve(int digits) {
     if (digits < 1) {
       throw new IllegalArgumentException();
     }

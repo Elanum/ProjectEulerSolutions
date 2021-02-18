@@ -11,7 +11,7 @@ public class p005 {
     System.out.println("Result: " + result);
   }
 
-  public static int solve(int max) {
+  private static int solve(int max) {
     int result = 1;
     for (int i = 1; i <= max; i++) {
       result = Helper.lcm(i, result);

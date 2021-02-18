@@ -10,7 +10,7 @@ public class p003 {
     System.out.println("Result: " + result);
   }
 
-  public static long solve(long n) {
+  private static long solve(long n) {
     while (true) {
       long prime = smallestFactor(n);
       if (prime < n) {
@@ -21,7 +21,7 @@ public class p003 {
     }
   }
 
-  public static long smallestFactor(long n) {
+  private static long smallestFactor(long n) {
     if (n <= 1) {
       throw new IllegalArgumentException();
     }

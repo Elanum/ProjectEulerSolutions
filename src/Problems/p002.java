@@ -10,7 +10,7 @@ public class p002 {
     System.out.println("Result: " + result);
   }
 
-  public static int solve(int n) {
+  private static int solve(int n) {
     int sum = 0;
     int current = 1;
     int next = 2;
