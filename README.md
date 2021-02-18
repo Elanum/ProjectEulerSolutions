@@ -6,3 +6,4 @@
 - Problem 2: [Even Fibonacci numbers](docs/Solution002.md)
 - Problem 3: [Largest prime factor](docs/Solution003.md)
 - Problem 4: [Largest palindrome product](docs/Solution004.md)
+- Problem 5: [Smallest multiple](docs/Solution005.md)
