@@ -1,4 +1,4 @@
-# Problem 3
+# Largest prime factor
 
 <blockquote>
 <p>The prime factors of 13195 are 5, 7, 13 and 29.</p>
@@ -8,6 +8,8 @@
 ## Solution
 
 First we calculate the smallest factor of the current number by looping from `2` to a maximum of the rounded square root of the current number. if the current number can be divided with the current iteration number, return the iteration number as the smallest factor. if the smallest factor is less than the current number. Repeat the process until the smallest factor is even with the current processed number, since this is the largest prime factor you can get.
+
+[Source Code](../src/Problems/p003.java)
 
 ## Example
 

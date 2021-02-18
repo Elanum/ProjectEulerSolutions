@@ -1,4 +1,4 @@
-# Problem 1
+# Multiples of 3 and 5
 
 <blockquote>
   <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.</p>
@@ -8,3 +8,5 @@
 ## Solution
 
 Iterate through all integers between 0 and n _(in this case `1000`)_ and everytime the value can be divided with `3` or `5`, add it to the result.
+
+[Source Code](../src/Problems/p001.java)
