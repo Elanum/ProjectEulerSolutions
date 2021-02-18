@@ -4,3 +4,4 @@
 ## Solved Problems
 - Problem 1: [Multiples of 3 and 5](docs/Solution001.md)
 - Problem 2: [Even Fibonacci numbers](docs/Solution002.md)
+- Problem 3: [Largest prime factor](docs/Solution003.md)
