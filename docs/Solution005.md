@@ -7,6 +7,6 @@
 
 ## Solution
 
-The smallest number n that is evenly divisible by every number in a set is also known as the lowest common multiple (LCM) of the set of numbers. The LCM of two natural numbers x and y is given by LCM(x, y) = x _ y / GCD(x, y). _(greatest common divider)\*.
+The smallest number n that is evenly divisible by every number in a set is also known as the lowest common multiple (LCM) of the set of numbers. The LCM of two natural numbers x and y is given by <code>LCM(x, y) = (x / GCD(x, y)) * y</code>. _(greatest common divider)_.
 
-[Source Code](../src/Problems/p003.java)
+[Source Code](../src/Problems/p005.java)
